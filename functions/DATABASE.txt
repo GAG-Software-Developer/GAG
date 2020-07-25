@@ -1,0 +1,70 @@
+Database Schema
+
+--------------USERS---------------                            
+{                                                                   
+    1: {                                                            
+        "name": "Giovanni Tjahjono"
+        "email: "ivangiovn@gmail.com"
+        "password": "xxxxxxxxxxxx"
+    }
+    2: {
+        "name": "Galih Samudro S."
+        "email: "galih.samudras@gmail.com"
+        "password": "xxxxxxxxxxxx"
+    }
+}                                                               
+
+--------------POSTS---------------
+{
+    1: {
+        "title_post": "Cryptosystem",
+        "image_post: "image.jpg",
+        "quote_post": "xxxxxxxxxxxx",
+        "year_of_post": "2018",
+        "owner_id_post": "1",
+        "owner_name_post": "Giovanni Tjahjono",
+        "attribute": ["Java", "PHP", "MySQL"]
+    }
+    2: {
+        "title_post": "Lumbung Seni",
+        "image_post: "image.jpg",
+        "quote_post": "xxxxxxxxxxxx",
+        "year_of_post": "2018",
+        "owner_id_post": "2",
+        "owner_name_post": "Galih Samudro S.",
+        "attribute": ["HTML", "CSS", "Laravel (PHP)", "MySQL"]
+    }
+}
+
+--------------POST_DETAILS---------------
+
+{
+    1: {
+        partOne: {
+            "image": "image.jpg",
+            "text": "this is the first paragraph"
+        }
+        partTwo: {
+            "image": "image.jpg",
+            "text": "this is the second paragraph"
+        }
+        partThird: {
+            "image": "image.jpg",
+            "text": "this is the third paragraph"
+        }
+    }
+    2: {
+        partOne: {
+            "image": "image.jpg",
+            "text": "this is the first paragraph"
+        }
+        partTwo: {
+            "image": "image.jpg",
+            "text": "this is the second paragraph"
+        }
+        partThird: {
+            "image": "image.jpg",
+            "text": "this is the third paragraph"
+        }
+    }
+}
