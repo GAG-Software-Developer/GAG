@@ -3,13 +3,13 @@ Database Schema
 --------------USERS---------------                            
 {                                                                   
     1: {                                                            
-        "name": "Giovanni Tjahjono"
-        "email: "ivangiovn@gmail.com"
+        "name": "Giovanni Tjahjono",
+        "email: "ivangiovn@gmail.com",
         "password": "xxxxxxxxxxxx"
     }
     2: {
-        "name": "Galih Samudro S."
-        "email: "galih.samudras@gmail.com"
+        "name": "Galih Samudro S.",
+        "email: "galih.samudras@gmail.com",
         "password": "xxxxxxxxxxxx"
     }
 }                                                               
@@ -68,3 +68,5 @@ Database Schema
         }
     }
 }
+
+//Cache function to make the loading more fast
