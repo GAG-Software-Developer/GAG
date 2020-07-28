@@ -1,0 +1,1 @@
+const nomor = 5;
