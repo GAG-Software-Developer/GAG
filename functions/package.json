@@ -13,14 +13,9 @@
     "node": "12"
   },
   "dependencies": {
-<<<<<<< HEAD
     "firebase-admin": "^8.13.0",
     "firebase-functions": "^3.6.1",
     "package-lock.json": "^1.0.0"
-=======
-    "firebase-admin": "^8.10.0",
-    "firebase-functions": "^3.6.1"
->>>>>>> 71e0637dc25c1154f26685d3f72cd5c8ea8ed035
   },
   "devDependencies": {
     "eslint": "^5.12.0",

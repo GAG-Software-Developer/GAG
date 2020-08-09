@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { Alert, Container, Card } from 'react-bootstrap';
-import '../Styles/Navigasi.css';
-import '../Styles/stylish-portfolio.css'
+import { Container, Card } from 'react-bootstrap';
+import '../../Styles/Navigasi.css';
+import '../../Styles/stylish-portfolio.css'
 
 export default class Projek extends Component {
     render() {
@@ -13,7 +13,7 @@ export default class Projek extends Component {
                     <a  href="#!" className="btn">
                     <Card className="border-0 shadow p-3 mb-5 bg-white rounded portfolio-item">
                         <div className="portfolio-item">
-                           <img className="img-fluid" src={require('../../Assets/projek_images/1.jpg')} alt="" />
+                           <img className="img-fluid" src={require('../../../Assets/projek_images/1.jpg')} alt="" />
                        </div>
                         <Card.Body>
                         <Card.Title>Cryptosystem</Card.Title>
@@ -30,7 +30,7 @@ export default class Projek extends Component {
                     <a  href="#!" className="btn">
                     <Card className="border-0 shadow p-3 mb-5 bg-white rounded portfolio-item">
                         <div className="portfolio-item">
-                           <img className="img-fluid" src={require('../../Assets/projek_images/2.jpg')} alt="" />
+                           <img className="img-fluid" src={require('../../../Assets/projek_images/2.jpg')} alt="" />
                        </div>
                         <Card.Body>
                         <Card.Title>Lumbung Seni</Card.Title>
@@ -47,7 +47,7 @@ export default class Projek extends Component {
                     <a  href="#!" className="btn">
                     <Card className="border-0 shadow p-3 mb-5 bg-white rounded portfolio-item">
                         <div className="portfolio-item">
-                           <img className="img-fluid" src={require('../../Assets/projek_images/3.jpg')} alt="" />
+                           <img className="img-fluid" src={require('../../../Assets/projek_images/3.jpg')} alt="" />
                        </div>
                         <Card.Body>
                         <Card.Title>Titipedia</Card.Title>
@@ -64,7 +64,7 @@ export default class Projek extends Component {
                     <a  href="#!" className="btn">
                     <Card className="border-0 shadow p-3 mb-5 bg-white rounded portfolio-item">
                         <div className="portfolio-item">
-                           <img className="img-fluid" src={require('../../Assets/projek_images/4.jpg')} alt="" />
+                           <img className="img-fluid" src={require('../../../Assets/projek_images/4.jpg')} alt="" />
                        </div>
                         <Card.Body>
                         <Card.Title>Android</Card.Title>
@@ -81,7 +81,7 @@ export default class Projek extends Component {
                     <a  href="#!" className="btn">
                     <Card className="border-0 shadow p-3 mb-5 bg-white rounded portfolio-item">
                         <div className="portfolio-item">
-                           <img className="img-fluid" src={require('../../Assets/projek_images/5.jpg')} alt="" />
+                           <img className="img-fluid" src={require('../../../Assets/projek_images/5.jpg')} alt="" />
                        </div>
                         <Card.Body>
                         <Card.Title>iOS</Card.Title>
@@ -98,7 +98,7 @@ export default class Projek extends Component {
                     <a  href="#!" className="btn">
                     <Card className="border-0 shadow p-3 mb-5 bg-white rounded portfolio-item">
                         <div className="portfolio-item">
-                           <img className="img-fluid" src={require('../../Assets/projek_images/6.jpg')} alt="" />
+                           <img className="img-fluid" src={require('../../../Assets/projek_images/6.jpg')} alt="" />
                        </div>
                         <Card.Body>
                         <Card.Title>React</Card.Title>
@@ -117,3 +117,5 @@ export default class Projek extends Component {
         )
     }
 }
+
+

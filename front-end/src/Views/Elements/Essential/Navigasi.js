@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Button, Navbar, Nav, Form, FormControl, Container } from 'react-bootstrap';
-import '../Styles/Navigasi.css';
+import '../../Styles/Navigasi.css';
 
 export default class Navigasi extends Component {
     render() {
@@ -21,3 +21,5 @@ export default class Navigasi extends Component {
         )
     }
 }
+
+
