@@ -14,9 +14,9 @@ Database Schema
     }
 }                                                               
 
---------------POSTS---------------
+--------------PROJEK---------------
 {
-    1: {
+    Ivan: {
         "title_post": "Cryptosystem",
         "image_post: "image.jpg",
         "quote_post": "xxxxxxxxxxxx",
@@ -24,12 +24,6 @@ Database Schema
         "owner_id_post": "1",
         "owner_name_post": "Giovanni Tjahjono",
         "attribute": ["Java", "PHP", "MySQL"].
-        "review": {
-            "1": {
-                "id_review": "1".
-                "isi_review": "bagus"
-            }
-        }
     }
     2: {
         "title_post": "Lumbung Seni",
@@ -42,21 +36,33 @@ Database Schema
     }
 }
 
---------------POST_DETAILS---------------
+Komen
+{
+    {
+        id_post: 1,
+        isi_komen: bagus
+    }
+}
+--------------PROJEK_DETAILS---------------
+
+
 
 {
-    1: {
-        partOne: {
-            "image": "image.jpg",
-            "text": "this is the first paragraph"
-        }
-        partTwo: {
-            "image": "image.jpg",
-            "text": "this is the second paragraph"
-        }
-        partThird: {
-            "image": "image.jpg",
-            "text": "this is the third paragraph"
+    hsudhauisd893: {
+        id_post: Ivan,
+        isi: {
+            partOne: {
+                "image": "image.jpg",
+                "text": "this is the first paragraph"
+            },
+            partTwo: {
+                "image": "image.jpg",
+                "text": "this is the second paragraph"
+            },
+            partThird: {
+                "image": "image.jpg",
+                "text": "this is the third paragraph"
+            }
         }
     }
     2: {

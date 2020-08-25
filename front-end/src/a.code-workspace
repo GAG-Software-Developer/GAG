@@ -4,25 +4,10 @@
 			"path": "..\\.."
 		},
 		{
-			"path": "..\\..\\..\\NitecesireStudio"
-		},
-		{
 			"path": "..\\..\\..\\handup-frontend"
 		},
 		{
-			"path": "..\\..\\..\\RoyalSpectreProject"
-		},
-		{
-			"path": "..\\..\\..\\Jastip-v2\\Titipedia"
-		},
-		{
-			"path": "..\\..\\..\\Firebase Backend"
-		},
-		{
 			"path": "..\\..\\..\\HandUp-backend"
-		},
-		{
-			"path": "..\\..\\..\\Belajar-NodeJS"
 		}
 	],
 	"settings": {}
